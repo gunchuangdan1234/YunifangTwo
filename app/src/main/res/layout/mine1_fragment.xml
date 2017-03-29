@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ssss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="455px">
+    <ImageView
+        android:background="#E198B5"
+        android:id="@+id/mine_img_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/user_center_bg"/>
+        <ImageView
+            android:id="@+id/mine_img_xiaomogu"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/mine_img_title"
+            android:src="@mipmap/xiaomogu"
+            android:layout_width="wrap_content"
+            android:layout_height="250px"
+            />
+        <ImageView
+            android:src="@mipmap/user_setting"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_alignParentRight="true"
+            android:layout_margin="40px"
+            android:id="@+id/mine_img_setting"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="170px">
+        <ImageView
+            android:id="@+id/mine_deng_img"
+            android:src="@mipmap/login_btn_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#98D9F8"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登陆"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginBottom="20px"
+        android:id="@+id/mine_rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textSize="13sp"
+            android:textColor="#6E6E6E"
+            android:drawableTop="@mipmap/wait_pay3"
+            android:id="@+id/mine_rb1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:text="待付款"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="13sp"
+            android:textColor="#6E6E6E"
+            android:drawableTop="@mipmap/wait_send_good3"
+            android:id="@+id/mine_rb2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:text="待发货"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="13sp"
+            android:textColor="#6E6E6E"
+            android:drawableTop="@mipmap/wait_receive_good3"
+
+            android:id="@+id/mine_rb3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:text="待收货"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="13sp"
+            android:textColor="#6E6E6E"
+            android:drawableTop="@mipmap/wait_evaluate3"
+
+            android:id="@+id/mine_rb4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:text="待评价"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="13sp"
+            android:textColor="#6E6E6E"
+            android:drawableTop="@mipmap/wait_refund3"
+
+            android:id="@+id/mine_rb5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:text="退款"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEDEDE"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="1100px"
+        android:id="@+id/mine_lv"></ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

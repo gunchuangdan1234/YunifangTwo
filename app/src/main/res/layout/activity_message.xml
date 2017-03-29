@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_margin="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/message_back_img"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/home_webview_back"/>
+        <TextView
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="填写您的联系信息"/>
+        <ImageView
+            android:id="@+id/message_ticket_img"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ticker_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/message_edit"
+        android:gravity="top"
+        android:hint="请填写能联系到您的QQ、电话...."
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+
+</LinearLayout>

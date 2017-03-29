@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px">
+    <com.bawei.yunifang.view.MyRoolViewPager
+        android:id="@+id/home_fragment_vp"
+        android:layout_width="match_parent"
+        android:layout_height="390px">
+    </com.bawei.yunifang.view.MyRoolViewPager>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/home_fragment_vp_lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"></LinearLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:paddingTop="10px"
+        android:paddingLeft="35px"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:numColumns="4"
+        android:id="@+id/home_fregment_gv"></GridView>
+    <TextView
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="30px" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        >
+        <LinearLayout
+            android:id="@+id/home_fragment_lin"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shixian"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本周热销"/>
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shixian"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="370px">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_fragment_benzhourexiao_lin">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="30px" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        >
+        <LinearLayout
+            android:id="@+id/home_fragment_lin_vip"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xian"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="优惠活动"/>
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xian"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:clipChildren="false"
+        android:layout_centerInParent="true"
+        >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/id_viewpager"
+            android:layout_width="match_parent"
+            android:clipChildren="false"
+            android:layout_height="350px"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_gravity="center"
+            >
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+
+    <TextView
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="30px" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        >
+        <LinearLayout
+            android:id="@+id/home_fragment_lin_remenzhuanti"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xian"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门专题"/>
+            <ImageView
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="10px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xian"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

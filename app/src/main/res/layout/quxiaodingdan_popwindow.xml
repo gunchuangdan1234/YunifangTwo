@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="60px"
+    android:paddingRight="60px"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="480px"
+        android:background="@drawable/shape_popwindow"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="30px"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消订单"/>
+
+    <TextView
+
+        android:layout_marginTop="70px"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定取消这个订单吗？"/>
+
+    <LinearLayout
+        android:background="#ccc"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/querendingdan_tv1"
+            android:textColor="#FC6B87"
+            android:padding="40px"
+            android:layout_marginTop="1px"
+            android:layout_marginRight="1px"
+            android:background="#fff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="确定"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/quxiaodingdan_tv2"
+            android:padding="40px"
+            android:layout_marginTop="1px"
+            android:background="#fff"
+            android:textColor="#323232"
+            android:textSize="20sp"
+            android:text="取消"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

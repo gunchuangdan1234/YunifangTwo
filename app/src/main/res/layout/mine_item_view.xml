@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_marginLeft="15px"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <LinearLayout
+            android:padding="10px"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/my_order_img"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="70px"
+            android:layout_height="70px" />
+        <TextView
+            android:textColor="#6E6E6E"
+            android:layout_marginLeft="15px"
+            android:layout_gravity="center"
+            android:id="@+id/my_order_tv1"
+            android:text="我的订单"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10px"
+            android:layout_centerHorizontal="true"
+            android:padding="10px"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+            <TextView
+                android:layout_marginRight="15px"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/my_order_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_marginRight="10px"
+                android:id="@+id/my_order_orrow"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/order_confirm_next_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/my_order_background"
+        android:layout_width="match_parent"
+        android:layout_height="25px"
+        android:background="#F9F9F9"></LinearLayout>
+
+</LinearLayout>

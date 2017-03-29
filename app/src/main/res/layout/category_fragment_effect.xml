@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/category_gong_title_tv"
+        android:textColor="#656565"
+        android:textSize="17sp"
+        android:layout_centerInParent="true"
+        android:drawableRight="@drawable/xian"
+        android:drawableLeft="@drawable/xian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 按功效 "/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#969696"
+            android:layout_marginTop="30px"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美丽从选对产品开始"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_marginTop="15px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--第一个tv-->
+        <RelativeLayout
+            android:layout_margin="10px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150px">
+            <TextView
+                android:layout_marginRight="7px"
+                android:layout_marginBottom="7px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+
+            <RelativeLayout
+                android:layout_width="300px"
+                android:layout_height="150px">
+                <TextView
+                    android:layout_marginRight="7px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+                <TextView
+
+                    android:textColor="#545558"
+                    android:gravity="center"
+                    android:id="@+id/category_fragment_effect_name1"
+                    android:layout_marginLeft="10px"
+                   android:layout_marginTop="10px"
+                    android:background="#D1E1C2"
+                    android:layout_width="300px"
+                    android:layout_height="150px" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+            </RelativeLayout>
+
+
+        <TextView
+            android:layout_marginRight="10px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10px"
+            android:background="#B5B5B5"
+            android:layout_width="290px"
+            android:layout_height="4px" />
+        </RelativeLayout>
+
+        <!--第二个tv-->
+        <RelativeLayout
+            android:layout_margin="10px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150px">
+            <TextView
+                android:layout_marginRight="7px"
+                android:layout_marginBottom="7px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+
+            <RelativeLayout
+                android:layout_width="300px"
+                android:layout_height="150px">
+                <TextView
+                    android:layout_marginRight="7px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+                <TextView
+                    android:textColor="#545558"
+                    android:gravity="center"
+                    android:id="@+id/category_fragment_effect_name2"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="10px"
+                    android:background="#F7F4D5"
+                    android:layout_width="300px"
+                    android:layout_height="150px" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginRight="10px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+        </RelativeLayout>
+
+        <!--第三个tv-->
+        <RelativeLayout
+            android:layout_margin="10px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150px">
+            <TextView
+                android:layout_marginRight="7px"
+                android:layout_marginBottom="7px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+
+            <RelativeLayout
+                android:layout_width="300px"
+                android:layout_height="150px">
+                <TextView
+                    android:layout_marginRight="7px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+                <TextView
+                    android:textColor="#545558"
+                    android:gravity="center"
+                    android:id="@+id/category_fragment_effect_name3"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="10px"
+                    android:background="#E3E8FE"
+                    android:layout_width="300px"
+                    android:layout_height="150px" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginRight="10px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+        </RelativeLayout>
+
+        <!--第四个tv-->
+        <RelativeLayout
+            android:layout_margin="10px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150px">
+            <TextView
+                android:layout_marginRight="7px"
+                android:layout_marginBottom="7px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+
+            <RelativeLayout
+                android:layout_width="300px"
+                android:layout_height="150px">
+                <TextView
+                    android:layout_marginRight="7px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+                <TextView
+                    android:textColor="#545558"
+                    android:gravity="center"
+                    android:id="@+id/category_fragment_effect_name4"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="10px"
+                    android:background="#F6F4E1"
+                    android:layout_width="300px"
+                    android:layout_height="150px" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginRight="10px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+        </RelativeLayout>
+
+        <!--第五个tv-->
+        <RelativeLayout
+            android:layout_margin="10px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="150px">
+            <TextView
+                android:layout_marginRight="7px"
+                android:layout_marginBottom="7px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+
+            <RelativeLayout
+                android:layout_width="300px"
+                android:layout_height="150px">
+                <TextView
+                    android:layout_marginRight="7px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+                <TextView
+                    android:textColor="#545558"
+                    android:gravity="center"
+                    android:id="@+id/category_fragment_effect_name5"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="10px"
+                    android:background="#F6E5E2"
+                    android:layout_width="300px"
+                    android:layout_height="150px" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10px"
+                    android:background="#B5B5B5"
+                    android:layout_width="4px"
+                    android:layout_height="140px" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_marginRight="10px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10px"
+                android:background="#B5B5B5"
+                android:layout_width="290px"
+                android:layout_height="4px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

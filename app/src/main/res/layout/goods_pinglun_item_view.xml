@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:padding="20px">
+
+
+        <ImageView
+            android:id="@+id/goods_parameter_user_img"
+            android:layout_margin="10px"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100px" />
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="9"
+        android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#FC6B87"
+                    android:id="@+id/goods_parameter_user_name"
+                    android:layout_margin="15px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张佳乐"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/goods_parameter_user_time"
+                    android:layout_margin="15px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015年12月15日"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/goods_parameter_user_parameter"
+                android:layout_margin="15px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="大白菜金山毒霸v成绩单开车呢虚空基地妇女IC卡你说的"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_margin="5px"
+                        android:id="@+id/goods_parameter_user_img1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="250px" />
+                    <ImageView
+                        android:layout_margin="5px"
+                        android:id="@+id/goods_parameter_user_img2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="250px" />
+                    <ImageView
+                        android:layout_margin="5px"
+                        android:id="@+id/goods_parameter_user_img3"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="250px" />
+                </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <!--搜索的头部布局-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150px">
+    <ImageView
+        android:id="@+id/category_seach_img"
+        android:layout_marginBottom="30px"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:src="@drawable/seach_img"/>
+    <ImageView
+        android:layout_marginLeft="80px"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_search"/>
+    <TextView
+        android:textSize="17sp"
+        android:layout_marginLeft="180px"
+        android:layout_centerVertical="true"
+        android:textColor="#A0A0A0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入商品名称"/>
+</RelativeLayout>
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/cate_fragment_springview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--分类的布局-->
+                <include layout="@layout/category_yi_view"/>
+                <!--分割线-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20px"
+                    android:background="#F9F9F9"/>
+                <!--功效的布局-->
+                <include layout="@layout/category_fragment_effect"/>
+                <!--分割线-->
+                <TextView
+                    android:layout_marginTop="30px"
+                    android:layout_width="match_parent"
+                    android:layout_height="20px"
+                    android:background="#F9F9F9"/>
+                <!--按肤质分类的布局-->
+                <include layout="@layout/category_fragment_skin_view"/>
+                <!--明星产品-->
+                <include layout="@layout/category_fragment_star_view"/>
+                <com.bawei.yunifang.view.MyGridView
+                    android:numColumns="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cate_fragment_gv">
+
+                </com.bawei.yunifang.view.MyGridView>
+            </LinearLayout>
+        </ScrollView>
+    </com.liaoinstan.springview.widget.SpringView>
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_margin="30px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dingdan_lv_img"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="200px" />
+        <TextView
+            android:id="@+id/dingdan_lv_name"
+            android:textColor="#323232"
+            android:layout_marginLeft="10px"
+            android:text="火爆新品|红石榴矿物眼霜25g"
+            android:layout_weight="13"
+            android:layout_width="0px"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dingdan_lv_price"
+                android:textSize="17sp"
+                android:textColor="#323232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥89.90"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_margin="10px"
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:src="@mipmap/juan"/>
+                <ImageView
+                    android:layout_margin="10px"
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:src="@mipmap/di"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="20px"
+                android:textColor="#323232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="购买数量"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/dingdan_lv_jian"
+                android:layout_marginRight="250px"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/huijian"
+                android:layout_width="100px"
+                android:layout_height="100px" />
+            <TextView
+                android:id="@+id/dingdan_lv_num"
+                android:text="1"
+                android:gravity="center"
+                android:layout_marginRight="150px"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/shuzis"
+                android:layout_width="100px"
+                android:layout_height="100px" />
+            <TextView
+                android:id="@+id/dingdan_lv_jia"
+                android:layout_marginRight="50px"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/heijia"
+                android:layout_width="100px"
+                android:layout_height="100px" />
+        </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    >
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:padding="35px"
+        >
+        <ImageView
+            android:id="@+id/qbcode_back_img"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/home_webview_back"/>
+        <TextView
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于我们"/>
+        <ImageView
+            android:id="@+id/qbcode_share_img"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_webview_share"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_marginTop="200px"
+        android:layout_gravity="center"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/yunifang"/>
+
+    <ImageView
+        android:id="@+id/qbcode_code_img"
+        android:background="#F9F9F9"
+        android:layout_marginTop="60px"
+        android:layout_gravity="center"
+        android:layout_width="700px"
+        android:layout_height="700px" />
+    <TextView
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323232"
+        android:textSize="12sp"
+        android:text="【推荐给好友扫一扫，马上下载】"/>
+
+    <ImageView
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/banquan"/>
+
+</LinearLayout>

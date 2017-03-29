@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_margin="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/address_xuanze_back_but"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:src="@drawable/home_webview_back"/>
+        <TextView
+            android:id="@+id/address_xuanze_title_tv"
+            android:textColor="#323232"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择收货地址1111"/>
+        <TextView
+            android:textColor="#FDA6B7"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:text="管理"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/address_xuanze_manager_tv"/>
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/address_xuanze_lv">
+    </ListView>
+
+    <RelativeLayout
+        android:background="#f9f9f9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/address_xuanze_but"
+            android:padding="30px"
+            android:background="#FDA6B7"
+            android:layout_margin="15px"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加收货地址"/>
+    </RelativeLayout>
+</LinearLayout>

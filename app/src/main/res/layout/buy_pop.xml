@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/buy_closes"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:id="@+id/buy_pop_close"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/buy_goods_img"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="250px"
+            android:layout_height="250px" />
+        <LinearLayout
+            android:padding="25px"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/buy_pop_name_tv"
+                android:textColor="#FC6B87"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥129.0"/>
+            <TextView
+                android:layout_marginTop="5px"
+                android:layout_marginBottom="5px"
+                android:id="@+id/buy_pop_sql_tv"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="库存928件"/>
+            <TextView
+                android:id="@+id/buy_pop_count_tv"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="限购5件"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20px"
+            android:textColor="#323232"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买数量"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/buy_pop_jian_tv"
+            android:layout_marginRight="250px"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/huijian"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+        <TextView
+            android:id="@+id/buy_pop_goods_number_tv"
+            android:text="1"
+            android:gravity="center"
+            android:layout_marginRight="150px"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/shuzis"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+        <TextView
+            android:id="@+id/buy_pop_jia_tv"
+            android:layout_marginRight="50px"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/heijia"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:background="@mipmap/xuxian"
+        android:layout_width="match_parent"
+        android:layout_height="5px" />
+    <TextView
+        android:id="@+id/buy_tv"
+        android:paddingLeft="60px"
+        android:paddingRight="60px"
+        android:paddingBottom="40px"
+        android:paddingTop="40px"
+        android:layout_gravity="center_horizontal"
+        android:background="#FC6B87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200px" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/goods_lv_comment_tv1"
+        android:textColor="#000"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        android:layout_marginRight="100px"
+        android:text="上市时间"
+        android:layout_width="300px"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/goods_lv_comment_tv2"
+        android:textColor="#000"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        android:text="上市时间"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

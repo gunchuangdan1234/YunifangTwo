@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/home1_fragment_title_tv"
+        android:textColor="#FC829A"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="御泥坊VIP商城"/>
+
+        <com.bawei.yunifang.view.XListView
+            android:id="@+id/home1_xlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.bawei.yunifang.view.XListView>
+
+
+</LinearLayout>

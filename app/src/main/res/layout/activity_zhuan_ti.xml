@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_margin="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/zhuanti_back_img"
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:src="@drawable/home_webview_back"/>
+        <TextView
+            android:id="@+id/zhuanti_title_tv"
+            android:textSize="22sp"
+            android:textColor="#323232"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专题"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#ccc"/>
+
+    <TextView
+        android:id="@+id/zhuanti_name"
+        android:textColor="#323232"
+        android:textSize="20sp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#2016年度爆款#"/>
+
+    <TextView
+        android:id="@+id/zhuanti_detail"
+        android:textSize="13sp"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#2016年度爆款#16年度爆款#16年度爆款#16年度爆款#16年度爆款#16年度爆款#16年度爆款#16年度爆款#"/>
+<TextView
+    android:layout_marginTop="50px"
+    android:layout_width="match_parent"
+    android:layout_height="20px"
+    android:background="#ccc"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:id="@+id/zhuanti_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

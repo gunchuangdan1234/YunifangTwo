@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:textColor="#FC6B87"
+            android:layout_margin="60px"
+            android:id="@+id/goods_goods_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="产品详情"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_margin="60px"
+            android:id="@+id/goods_parameter_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="产品参数"/>
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_margin="60px"
+            android:id="@+id/goods_comment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论(574)"/>
+    </RelativeLayout>
+
+</LinearLayout>

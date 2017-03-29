@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <RelativeLayout
+        android:layout_margin="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/category_back_img"
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:src="@drawable/home_webview_back"/>
+        <TextView
+            android:textColor="#323232"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:id="@+id/category_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="面膜"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/cate_lin"
+       >
+    <LinearLayout
+        android:id="@+id/category_lin"
+        android:background="#ccc"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+        <TextView
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#F38C8B"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/mianmo_tv1"
+            android:text="贴式面膜"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="#fff"
+            android:layout_marginLeft="3px"
+            android:layout_marginRight="3px"
+            android:layout_gravity="center"
+            android:textColor="#323232"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/mianmo_tv2"
+            android:text="贴式面膜"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#323232"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/mianmo_tv3"
+            android:text="贴式面膜"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/cate_xian"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5px">
+        <TextView
+            android:id="@+id/category_background_tv1"
+            android:background="#F38C8B"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5px" />
+        <TextView
+            android:id="@+id/category_background_tv2"
+            android:layout_marginRight="3px"
+            android:layout_marginLeft="3px"
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5px" />
+        <TextView
+            android:id="@+id/category_background_tv3"
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5px" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/gong_lin"
+            android:background="#ccc"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90px">
+            <TextView
+                android:padding="15px"
+                android:background="#fff"
+                android:layout_gravity="center"
+                android:textColor="#F38C8B"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/gong_tv1"
+                android:text="补水保湿"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="15px"
+                android:background="#fff"
+                android:layout_marginLeft="3px"
+                android:layout_marginRight="3px"
+                android:layout_gravity="center"
+                android:textColor="#323232"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/gong_tv2"
+                android:text="舒缓修复"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="15px"
+                android:background="#fff"
+                android:layout_gravity="center"
+                android:textColor="#323232"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/gong_tv3"
+                android:text="控油祛痘"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="15px"
+                android:background="#fff"
+                android:layout_marginLeft="3px"
+                android:layout_marginRight="3px"
+                android:layout_gravity="center"
+                android:textColor="#323232"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/gong_tv4"
+                android:text="美白提亮"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="15px"
+                android:background="#fff"
+                android:layout_marginLeft="3px"
+                android:layout_marginRight="3px"
+                android:layout_gravity="center"
+                android:textColor="#323232"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:id="@+id/gong_tv5"
+                android:text="紧致抗皱"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/category_springView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/category_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.liaoinstan.springview.widget.SpringView>
+
+</LinearLayout>

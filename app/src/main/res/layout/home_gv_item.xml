@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingLeft="10px">
+
+    <ImageView
+        android:id="@+id/home_gv_item_img"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="110px"
+        android:layout_height="110px" />
+    <TextView
+        android:textSize="12sp"
+        android:layout_marginTop="15px"
+        android:id="@+id/home_gv_item_tv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1111"/>
+
+</LinearLayout>

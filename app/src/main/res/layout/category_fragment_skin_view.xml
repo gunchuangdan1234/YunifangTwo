@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/category_gong_title_tv"
+            android:textColor="#656565"
+            android:textSize="17sp"
+            android:layout_centerInParent="true"
+            android:drawableRight="@drawable/xian"
+            android:drawableLeft="@drawable/xian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 按肤质 "/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#969696"
+            android:layout_marginTop="30px"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="适合自己的才是最好"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px">
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv1"
+            android:background="#DEDEB9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv2"
+            android:background="#EED4C2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px">
+        <TextView
+
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv3"
+            android:background="#D4D7F7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv4"
+            android:background="#D1E1C3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="250px">
+        <TextView
+
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv5"
+            android:background="#F1D2CB"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:id="@+id/category_fragment_skin_tv6"
+            android:background="#BFF1EC"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
